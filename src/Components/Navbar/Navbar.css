@@ -1,0 +1,51 @@
+.nav{
+    box-shadow: -1px 11px 36px -14px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.logo{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100px;
+}
+
+.logo span{
+    color:red;
+}
+
+.button1, .button2{
+    padding: 0.75rem;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin-right: 8px;
+    border: none;
+    overflow-y: hidden;
+}
+
+.button1{
+    background-color:#023047;
+}
+.button2{
+    background-color: #EC9B3B;
+}
+
+.button1 :hover{
+    cursor: pointer;
+    box-shadow: 2px;
+}
+
+.button2 :hover{
+    cursor: pointer;
+    box-shadow: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+    .button1,.button2{
+        display: none;
+    } 
+    
+}
