@@ -115,7 +115,7 @@ const Login = () => {
                       }}
                       className="col"
                     >
-                      <Col span={6}>Forgot password?</Col>
+                      <Col span={6} className="forgot">Forgot password?</Col>
                   </Form.Item>
                 </Row>
             </Form>
